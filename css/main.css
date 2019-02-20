@@ -1,7 +1,40 @@
-.main {
-  background:black;
-  padding: 40px;
-  max-width:600px;
-  margin:40px auto;
-  box-shadow:0 4px 10px 4px;
+
+body {
+
+  font-family: sans-serif;
+  border: solid;
+  max-width: 400px;
+  text-align: center;
+  color: green;
+
 }
+
+
+
+.main {
+  /* background:gray; */
+  padding: 40px;
+  max-width:300px;
+  margin:40px auto;
+
+  /* box-shadow:0 4px 10px 4px; */
+}
+.main-group {
+  list-style:none;
+  padding:0;
+  margin:0 0 20px 0;
+
+  }
+
+  li a {
+
+  display:block;
+  text-decoration:none;
+  font-size:20px;
+  float:left;
+  width:50%;
+  text-align:center;
+  cursor:pointer;
+  transition:.5s ease;
+  &:hover;
+  }

@@ -53,7 +53,8 @@ transition:.5s ease;
   border-radius: 50%;
   max-width: 5%;
   max-height: 5%;
-  float: right;
+  position: relative;left: 40px,
+
 }
 
 .btn{

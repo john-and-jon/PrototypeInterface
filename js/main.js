@@ -10,10 +10,20 @@
 // }
 
 
-let person_a = [{
+let person_a = [
+  {
 
-  name: `Rocco P`,
-  date: `June 1st`,
+  starting date: {month: June;,
+                  day: 7;,
+                  year: 1991}
+
+  name: { first: null;,
+        last: null;
+      },
+  date: { month: null;,
+         day: null;,
+         year: null;
+       },
 
   exercises: [
   { name: "Push Ups", sets: 4, reps: 8 },

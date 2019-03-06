@@ -13,9 +13,9 @@
 let person_a = [
   {
 
-  starting date: {month: June;,
+  starting date: {month: June};
                   day: 7;,
-                  year: 1991}
+                  year: 1991};
 
   name: { first: null;,
         last: null;

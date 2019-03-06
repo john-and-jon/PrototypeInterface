@@ -35,3 +35,6 @@ let person_a = [
 ]
 
 },];
+
+console.log(exercises);
+document.getElementById('finished').innerHMTL = exercise.map(ex =>`<li>${ex.name}, ${ex.sets} sets, ${ex.reps} reps</li>`).join('');

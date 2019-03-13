@@ -70,3 +70,7 @@ transition:.5s ease;
 li{
    list-style-type: none;
 }
+
+complete{
+  text-decoration: line-through;
+}

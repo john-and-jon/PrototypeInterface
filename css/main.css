@@ -2,7 +2,8 @@ body {
 
   font-family: sans-serif;
   border: solid;
-  max-width: 450px;
+  max-width: 900px;
+  max-height: 900px;
   text-align: center;
   color: green;
 
@@ -13,9 +14,7 @@ body {
 .main {
   /* background:gray; */
   padding: 40px;
-  max-width:300px;
   margin:40px auto;
-
   /* box-shadow:0 4px 10px 4px; */
 }
 
@@ -38,9 +37,9 @@ transition:.5s ease;
 }
 .box-shadow-menu:before {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 0.25em;
+  position: fixed;
+  left: 25px;
+  top: 25px;
   width: 1em;
   height: 0.15em;
   background: black;
@@ -53,18 +52,20 @@ transition:.5s ease;
   border-radius: 50%;
   max-width: 5%;
   max-height: 5%;
-  position: relative;left: 40px,
+  position: relative;
+  left: 400px;
 
 }
 
 .btn{
   background-color: #5ABE21;
-   border: none;
+   border-color: white;
    color: white;
    padding: 15px 32px;
    text-align: center;
    text-decoration: none;
    font-size: 16px;
+   width: 10em;
 }
 
 li{

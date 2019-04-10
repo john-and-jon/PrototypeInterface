@@ -50,11 +50,10 @@ transition:.5s ease;
 
 .img{
   border-radius: 50%;
-  max-width: 5%;
-  max-height: 5%;
-  position: relative;
-  left: 400px;
-
+  max-width: 2em;
+  max-height: 2em;
+  position: static;
+  float: right;
 }
 
 .btn{
